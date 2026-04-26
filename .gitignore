@@ -1,0 +1,23 @@
+# Secrets — never commit these
+api/local.settings.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# Node (not needed for Azure deployment)
+node_modules/
+package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Azure local data
+.python_packages/
