@@ -21,3 +21,27 @@ Thumbs.db
 
 # Azure local data
 .python_packages/
+
+# Logs
+*.log
+
+# Environment variables (important)
+.env.*
+!.env.example
+
+# Azure Static Web Apps build output (if used)
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# Python testing
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# OS temp
+*.swp
